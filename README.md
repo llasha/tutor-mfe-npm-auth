@@ -58,7 +58,7 @@ git clone https://github.com/<your-user>/tutor-mfe-npm-auth
 ```bash
 cd "$(tutor plugins printroot)"
 pip install -e tutor-mfe-npm-auth
-tutor plugins enable tutor-mfe-npm-auth
+tutor plugins enable mfe_npm_auth
 tutor config save
 ```
 
@@ -104,10 +104,10 @@ tutor local start -d
 
 ### Credits
 
+This plugin was developed with substantial assistance from:
 
-This plugin was developed with substantial assistance from ChatGPT v5.2 (OpenAI, 2026).
-and
-Google. (2026). AI on Google Search (1.5 Pro version) [LLM]. https://ai.google.com
+- ChatGPT v5.2 (OpenAI, 2026)  
+- Google (2026). *AI on Google Search (1.5 Pro version)* [LLM]. https://ai.google.com
 
 ---
 

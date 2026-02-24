@@ -102,6 +102,15 @@ tutor local start -d
 
 ---
 
+### Credits
+
+
+This plugin was developed with substantial assistance from ChatGPT v5.2 (OpenAI, 2026).
+and
+Google. (2026). AI on Google Search (1.5 Pro version) [LLM]. https://ai.google.com
+
+---
+
 ## License
 
 Licensed under the Apache License, Version 2.0 (Apache-2.0).

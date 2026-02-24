@@ -104,8 +104,11 @@ tutor local start -d
 
 ### Credits
 
-This plugin was developed with substantial assistance from:
+All credits go to:
+- [arbrandes](https://github.com/arbrandes) for implementing patching of the Tutor Dockerfile per MFE, see  
+  https://github.com/overhangio/tutor-mfe/pull/134
 
+This plugin was developed with substantial assistance from:
 - ChatGPT v5.2 (OpenAI, 2026)  
 - Google (2026). *AI on Google Search (1.5 Pro version)* [LLM]. https://ai.google.com
 

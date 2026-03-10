@@ -1,6 +1,6 @@
 # tutor-mfe-npm-auth
 
-`tutor-mfe-npm-auth` is a v1 plugin for **Tutor v20 and v21** that injects a GitHub Personal Access Token (classic) into the Tutor MFE Docker build stage before `npm install`.
+`tutor-mfe-npm-auth` is a v1 plugin for **Tutor v20** that injects a GitHub Personal Access Token (classic) into the Tutor MFE Docker build stage before `npm install`.
 
 This allows installation of private npm packages hosted on **GitHub Packages** during the MFE image build.
 
@@ -97,22 +97,11 @@ tutor local start -d
 
 ## Compatibility
 
+Tested with
 - Tutor v20 (Teak)
-- Tutor v21 (Ulmo)
 
 ---
 
-### Credits
-
-All credits go to:
-- [arbrandes](https://github.com/arbrandes) for implementing patching of the Tutor Dockerfile per MFE, see  
-  https://github.com/overhangio/tutor-mfe/pull/134
-
-This plugin was developed with substantial assistance from:
-- ChatGPT v5.2 (OpenAI, 2026)  
-- Google (2026). *AI on Google Search (1.5 Pro version)* [LLM]. https://ai.google.com
-
----
 
 ## License
 
